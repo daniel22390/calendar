@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "voop",
-    "slug": "voop",
+    "name": "Voopter",
+    "slug": "Voopter",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.daniel22390.Voopter"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b8bc1b16-7df1-4056-babf-9aec6dd00397"
+      }
     }
   }
 }
